@@ -65,7 +65,7 @@ int main() {
         if (total[i] == total[top]) {
             cout << "- " << names[i] << endl;
 }
-
+}
     return 0;
 }
-}
+

@@ -59,8 +59,13 @@ int main() {
              << avg[i] << endl;
     }
 
-    cout << "\nTop student: " << names[top] << endl;
-   
+   cout << "\nTop student(s) with total " << total[top] << ":" << endl;
+
+    for (int i = 0; i < 5; i++) {
+        if (total[i] == total[top]) {
+            cout << "- " << names[i] << endl;
+}
 
     return 0;
+}
 }
